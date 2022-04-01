@@ -1,0 +1,48 @@
+.navbar{
+    width:100%;
+    background-color: black;
+    height: 8vh;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    z-index: 10000;
+    align-items: center;
+    position: relative;
+}
+.Left{
+flex :.7;
+margin-left: 100px;
+
+}
+.selected{
+    color: blueviolet;
+}
+.title{
+    height:60px;
+}
+.Right{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex:.8;
+    margin-right: 100px;
+  
+}
+.Rightitems{
+    margin-right: 10px;
+}
+.joinbtn{
+    color: white;    
+    padding: 10px 20px;
+    background-color: blueviolet;
+       font-weight: 500;
+       font-size: 16px;
+    background-image: linear-gradient(90deg,rgb(131, 45, 148),rgb(80, 66, 161));
+border:none;
+}

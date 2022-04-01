@@ -1,0 +1,42 @@
+.footercontainer{
+    display: flex;
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+   flex-direction: column;
+   padding-bottom: 50px;
+   opacity: .8;
+}
+.underline{
+    height: 8px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.footercontentwrapper{
+    display: flex;
+    justify-content: space-between;   
+    flex-direction: row;
+    align-items: center;
+}
+
+.footerleft{
+    flex:.5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    flex-direction: row;
+}
+.logo{
+    margin-right: 20px;
+}
+.footerright{
+    flex: .1;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20px;
+    flex-direction: row;
+}
+.icon{
+    height: 20px;
+}
